@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 8080;
 
 // Define a simple endpoint that responds to GET requests
 app.get('/', (req, res) => {
-  res.send('Hello from Cloud Run! This is a new version 3.0..');
+  res.send('Hello from Cloud Run! This is a new version 1.0..');
 });
 
 // Start the server
